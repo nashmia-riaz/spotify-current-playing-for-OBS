@@ -1,0 +1,1 @@
+# spotify-current-playing-for-OBS
