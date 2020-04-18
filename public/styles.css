@@ -1,0 +1,41 @@
+body{
+  font-family: "Montserrat", sans-serif;
+}
+
+div#song, div#artist{
+  font-family: "Montserrat", sans-serif;
+  margin: 10px;
+  color: white;
+}
+div#container{
+  padding:20px;
+  background-color: rgba(20, 0, 50, 0.5);
+  /* border: 2px solid #fc0349; */
+  width: 400px;
+  position: relative;
+  border-radius: 10px 10px;
+}
+div#songartist{
+  margin-left: 30px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+div#song{
+  font-weight: 800;
+  font-size: 1.5em;
+  /* color: #fc0349; */
+}
+
+div#artist{
+  font-kerning: 200;
+  color: #fc0349;
+  font-weight: 800;
+}
+
+img#albumArt{
+  width: 100px;
+  box-shadow: 0px 0px 5px black;
+}
