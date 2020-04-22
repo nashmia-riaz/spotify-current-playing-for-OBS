@@ -41,7 +41,7 @@
               },
               success: function(response) {
                 console.log(response);
-                if(response.is_playing && ((currentSong != song && currentArtist != artist)
+                if(response.is_playing && ((currentSong != song || currentArtist != artist)
                   || (currentSong == "" && currentArtist == ""))){
                     
                   song = response.item.name;
